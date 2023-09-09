@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@media (max-width: 768px) {
+    .img {
+        display: none;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 640px auto;   
+}
+.login{
+    height: 100vh;
+}
+.img{
+    height: 100%;
+}
+
+
+header {
+    height: 112px;
+    margin-right: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+header .logo {
+    padding-left: 32px;
+    align-items: center;
+}
+
+.language {
+    display: grid;
+    justify-items: end;
+}
+
+ul {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    width: 104px;
+    align-items: center;
+}
+li {
+    color: #A0AEC0;
+}
+
+li:hover {
+    color: #2D3748;
+}
+
+
+.main {
+    display: grid;
+    padding: 80px;
+    gap: 24px;
+    
+}
+
+.main .title {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    align-items: center;
+}
+
+.main .title div {
+    color: #A0AEC0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.main .title div:active {
+    color: #2D3748;
+}
+
+.main .form {
+    display: grid;
+    gap: 8px;
+}
+
+.main .form p {
+    font-size: 16px;
+    color: #2D3748;
+}
+
+.main .form span {
+    background: #EDF2F7;
+    padding: 8px 16px;
+}
+
+.main .form div {
+    border-radius: 6px;
+    padding: 8px 16px 8px 0;
+    border: 1px solid #E2E8F0;
+}
+
+
+
+.main .form div input {
+    outline: none;
+    border: none;
+}
+
+
+.btn {
+    padding: 10px 24px;
+    background:  #CBD5E0;
+    opacity: 0.4000000059604645px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.and {
+    text-align: center;
+    padding: 8px 0;
+    font-size: 16px;
+    color: #4A5568;
+}
+
+.btn-1 {
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    padding: 10px 24px;
+    color:  #1A202C;
+    font-size: 18px;
+    background: white;
+}
+
+footer {
+    padding: 0 56px;
+}
+
+footer .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: space-between;
+    padding: 24px;
+}
+
+footer .footer .link-1 {
+    padding: 2px 3px;
+    justify-items: start;
+    align-items: center;
+}
+
+footer .footer .link-2 {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+}
+
+
+footer a {
+    color: #718096;
+}
+
+
+
